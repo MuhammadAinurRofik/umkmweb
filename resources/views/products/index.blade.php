@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- Tombol Keranjang -->
-                <form action="{{ route('cart.store') }}" method="POST" class="ml-4">
+                <form action="{{ route('guest.cart.store') }}" method="POST" class="ml-4">
                     @csrf
                     <input type="hidden" name="product_id" value="{{ $product->id }}">
                     <input type="hidden" name="quantity" value="1">
