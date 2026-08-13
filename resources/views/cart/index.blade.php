@@ -24,7 +24,7 @@
 
                     <div class="mb-4 flex items-center space-x-2">
                         <span class="text-sm text-gray-600">Jumlah:</span>
-                        <form action="{{ route('cart.update', $id) }}" method="POST" class="flex items-center">
+                        <form action="{{ route('guest.cart.update', $id) }}" method="POST" class="flex items-center">
                             @csrf
                             @method('PUT')
                             <input type="number" name="quantity" value="{{ $item['quantity'] }}" min="1" class="border border-gray-300 p-2 rounded-lg w-16">
