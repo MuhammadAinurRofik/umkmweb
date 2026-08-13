@@ -4,7 +4,7 @@
         <ul class="flex space-x-6">
             <li><a href="/" class="hover:text-[#87A2FF] font-bold">HOME</a></li>
             <li><a href="/produk" class="hover:text-[#87A2FF] font-bold">PRODUCT</a></li>
-            <li><a href="{{ route('cart.index') }}" class="hover:text-[#87A2FF] font-bold"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="{{ route('guest.cart.index') }}" class="hover:text-[#87A2FF] font-bold"><i class="fas fa-shopping-cart"></i></a></li>
         </ul>
     </div>
 </nav>
