@@ -12,7 +12,7 @@
             @foreach ($cart as $id => $item)
                 <div class="bg-white border border-gray-300 rounded-lg shadow-md bg-no-repeat bg-center bg-cover p-4 relative" style="background-image: url('{{ asset('images/cardimg2.png') }}');">
                     <!-- Tombol Hapus di sudut kanan atas -->
-                    <form action="{{ route('cart.destroy', $id) }}" method="POST" class="absolute top-2 right-2">
+                    <form action="{{ route('guest.cart.destroy', $id) }}" method="POST" class="absolute top-2 right-2">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="p-2 text-black hover:text-red-600">
