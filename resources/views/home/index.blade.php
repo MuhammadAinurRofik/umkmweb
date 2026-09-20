@@ -6,7 +6,7 @@
 <!-- Header -->
 <div class="h-screen text-white bg-no-repeat bg-center bg-cover relative" style="background-image: url('{{ asset('images/babyimg.png') }}');">
     <div class="container mx-auto text-left p-8 rounded-lg absolute top-1/2 transform -translate-y-1/2">
-        <h1 class="text-5xl font-bold">ESSENTIALS FOR LITTLE ONES LITTLE ONES</h1>
+        <h1 class="text-5xl font-bold">ESSENTIALS FOR LITTLE ONES LITTLE ONES LITTLE ONES</h1>
         <p class="mt-2 text-lg">
             Temukan berbagai produk kebutuhan bayi, mulai dari pakaian, mainan, hingga perlengkapan tidur, <br> 
             dirancang untuk kenyamanan dan kebahagiaan Si Kecil.
